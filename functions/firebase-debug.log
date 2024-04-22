@@ -1,0 +1,115 @@
+[debug] [2024-04-22T18:02:16.962Z] ----------------------------------------------------------------------
+[debug] [2024-04-22T18:02:16.975Z] Command:       C:\Users\mbonanic.VF-ROOT\Desktop\node-v20.12.2-win-x64\node.exe C:\Users\mbonanic.VF-ROOT\Desktop\node-v20.12.2-win-x64\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-04-22T18:02:16.976Z] CLI Version:   13.7.2
+[debug] [2024-04-22T18:02:16.976Z] Platform:      win32
+[debug] [2024-04-22T18:02:16.976Z] Node Version:  v20.12.2
+[debug] [2024-04-22T18:02:16.976Z] Time:          Mon Apr 22 2024 20:02:16 GMT+0200 (South Africa Standard Time)
+[debug] [2024-04-22T18:02:16.976Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-22T18:02:17.188Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-22T18:02:17.189Z] > authorizing via signed-in user (tcmbonani@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2024-04-22T18:02:17.208Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-22T18:02:17.208Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-22T18:02:17.216Z] [ui] portUtils: skipping restricted port 4045
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4065 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4065 instead."}}
+[debug] [2024-04-22T18:02:17.222Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4065},{"address":"::1","family":"IPv6","port":4065}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project clone-fa92e. This may result in unexpected behavior. 
+[debug] [2024-04-22T18:02:17.234Z] [hub] writing locator at C:\Users\MBONAN~1.VF-\AppData\Local\Temp\hub-clone-fa92e.json
+[debug] [2024-04-22T18:02:17.270Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-22T18:02:17.271Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-22T18:02:17.271Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4065},{"address":"::1","family":"IPv6","port":4065}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2024-04-22T18:02:17.280Z] defaultcredentials: writing to file C:\Users\mbonanic.VF-ROOT\AppData\Roaming\firebase\tcmbonani_gmail_com_application_default_credentials.json
+[debug] [2024-04-22T18:02:17.290Z] Setting GAC to C:\Users\mbonanic.VF-ROOT\AppData\Roaming\firebase\tcmbonani_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\mbonanic.VF-ROOT\\AppData\\Roaming\\firebase\\tcmbonani_gmail_com_application_default_credentials.json"}}
+[debug] [2024-04-22T18:02:17.294Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-fa92e/adminSdkConfig [none]
+[debug] [2024-04-22T18:02:17.957Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-fa92e/adminSdkConfig 200
+[debug] [2024-04-22T18:02:17.958Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-fa92e/adminSdkConfig {"projectId":"clone-fa92e","storageBucket":"clone-fa92e.appspot.com"}
+[debug] [2024-04-22T18:02:17.986Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-fa92e/sites 
+[debug] [2024-04-22T18:02:20.304Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-fa92e/sites 200
+[debug] [2024-04-22T18:02:20.304Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-fa92e/sites {"sites":[{"name":"projects/clone-fa92e/sites/clone-fa92e","defaultUrl":"https://clone-fa92e.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-04-22T18:02:20.304Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-fa92e/webApps/-/config [none]
+[debug] [2024-04-22T18:02:21.083Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-fa92e/webApps/-/config 200
+[debug] [2024-04-22T18:02:21.083Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-fa92e/webApps/-/config {"projectId":"clone-fa92e","appId":"1:505955065224:web:33133e0b585edde79eae3d","storageBucket":"clone-fa92e.appspot.com","apiKey":"AIzaSyBW63hzD_Z7YQUzzzSO92zAMJMiRwoFbvM","authDomain":"clone-fa92e.firebaseapp.com","messagingSenderId":"505955065224"}
+[debug] [2024-04-22T18:02:21.088Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-fa92e [none]
+[debug] [2024-04-22T18:02:21.466Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-fa92e 200
+[debug] [2024-04-22T18:02:21.467Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-fa92e {"projectId":"clone-fa92e","projectNumber":"505955065224","displayName":"Amazon-clone","name":"projects/clone-fa92e","resources":{"hostingSite":"clone-fa92e"},"state":"ACTIVE","etag":"1_d4fcf82c-1c9c-4734-b63e-564286feb746"}
+[info] i  hosting[clone-fa92e]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[clone-fa92e]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2024-04-22T18:02:21.617Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-04-22T18:02:21.617Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-04-22T18:02:21.617Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\mbonanic.VF-ROOT\\.cache\\firebase\\emulators\\ui-v1.11.8\\server\\server.mjs"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\mbonanic.VF-ROOT\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.8\\\\server\\\\server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-04-22T18:02:23.193Z] Web / API server started at 127.0.0.1:4065
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4065\n"}}
+[debug] [2024-04-22T18:02:23.194Z] Web / API server started at ::1:4065
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4065\n"}}
+[info] i  functions: Watching "C:\Users\mbonanic.VF-ROOT\Desktop\Learn node\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\mbonanic.VF-ROOT\\Desktop\\Learn node\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2024-04-22T18:02:23.287Z] Validating nodejs source
+[debug] [2024-04-22T18:02:33.359Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1124:20)
+    at Object.spawnSync (node:child_process:876:24)
+    at Function.spawnSync [as sync] (C:\Users\mbonanic.VF-ROOT\Desktop\node-v20.12.2-win-x64\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
+    at Object.getLatestSDKVersion (C:\Users\mbonanic.VF-ROOT\Desktop\node-v20.12.2-win-x64\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (C:\Users\mbonanic.VF-ROOT\Desktop\node-v20.12.2-win-x64\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:74:32)
+    at Delegate.validate (C:\Users\mbonanic.VF-ROOT\Desktop\node-v20.12.2-win-x64\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:85:20)
+    at FunctionsEmulator.discoverTriggers (C:\Users\mbonanic.VF-ROOT\Desktop\node-v20.12.2-win-x64\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:301:35)
+    at async FunctionsEmulator.loadTriggers (C:\Users\mbonanic.VF-ROOT\Desktop\node-v20.12.2-win-x64\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:330:34)
+    at async FunctionsEmulator.connect (C:\Users\mbonanic.VF-ROOT\Desktop\node-v20.12.2-win-x64\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:267:13)
+    at async Object.startAll (C:\Users\mbonanic.VF-ROOT\Desktop\node-v20.12.2-win-x64\node_modules\firebase-tools\lib\emulator\controller.js:569:13)
+[debug] [2024-04-22T18:02:33.361Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.9.0",
+    "stripe": "^15.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-04-22T18:02:33.361Z] Building nodejs source
+[debug] [2024-04-22T18:02:33.362Z] Failed to find version of module node: reached end of search path C:\Users\mbonanic.VF-ROOT\Desktop\Learn node\amazon-clone\functions\node_modules
+[info] +  functions: Using node@20 from host. 
+[debug] [2024-04-22T18:02:33.368Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-04-22T18:02:33.391Z] Found firebase-functions binary at 'C:\Users\mbonanic.VF-ROOT\Desktop\Learn node\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8261
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4065/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4065/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 

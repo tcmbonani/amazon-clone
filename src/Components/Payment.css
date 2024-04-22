@@ -1,0 +1,138 @@
+.payment{
+    background-color: #fff;
+    height: max-content;
+    width: 100%;
+    z-index: -1;
+    margin-top: 35px;
+    margin-bottom: -0vh;
+    margin-right: 100vw;
+    height: 95vh;
+    object-fit: cover;
+    object-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow:auto;
+}
+
+.payment_container > h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    background-color: rgb(234, 237, 237);
+    border-bottom: 1px solid lightgray;
+}
+
+.payment_container > h1 a {
+    text-decoration: none;
+}
+
+.payment_section {
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+}
+.payment_container {
+    display: 0.2;
+}
+
+.payment_title, .payment_address, .payment_item, .payment_details {
+    flex: 0.8;
+}
+
+.payment_title, .payment_address{
+    display: flex; 
+}
+
+.payment_address {
+    flex-direction: column;
+    font-size: 12px; 
+    line-height: -10; 
+}
+
+.payment_details > form {
+    max-width: 400px;
+}
+
+.payment_details > h3 {
+    padding-bottom: 20px;
+}
+
+.payment_details > form > button {
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
+
+.payment {
+    margin: 20px;
+  }
+  
+  .payment_container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .payment_title {
+    margin-bottom: 10px;
+  }
+  
+  .payment_items {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .payment_item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .payment_item img {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  
+  .payment_details {
+    margin-top: 20px;
+  }
+  
+  .payment_price_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .payment_price_container h3 {
+    font-size: 18px;
+  }
+  
+  .payment_price_container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment_price_container button:hover {
+    background-color: #0056b3;
+  }
+  

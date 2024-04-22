@@ -1,0 +1,29 @@
+.checkout{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+    width: 100%;
+    z-index: -1;
+    margin-top: 35px;
+    margin-bottom: -0vh;
+    margin-right: 100vw;
+    height: 95vh;
+    object-fit: cover;
+    object-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow:auto;
+}
+
+.checkout_ad{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkout_title{
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}

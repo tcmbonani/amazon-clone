@@ -1,0 +1,25 @@
+.not_found{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    z-index: -1;
+    margin-top: 35px;
+    margin-bottom: -0vh;
+    margin-right: 100vw;
+    height: 95vh;
+    object-fit: cover;
+    object-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.img_top {
+    margin-top: 50px;
+
+}
